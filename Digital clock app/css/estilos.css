@@ -6,20 +6,32 @@
 }
 
 .reloj-contenedor{
-    background-color: rgb(12, 119, 206);
     padding: 25px;
     max-width: 350px;
     text-align: center;
     border-radius: 5px;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 7%;
+    background: url(fondo.png), linear-gradient(to left, #3da885, #ad7276);
+
 }
 
-#fecha{
+#fecha, #fecha2{
     letter-spacing: 10px;
     font-size: 15px;
 }
 
 .animar{
     border: rgb(0, 0, 0) 1px solid;
+}
+
+.texto{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-shadow: 0px 0px 1px #333;
+    color: #fff;
+}
+
+body{
+    background: url(fondo.png), linear-gradient(to left, #000000, #1f1f1f);
 }

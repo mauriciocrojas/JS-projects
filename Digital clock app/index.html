@@ -7,11 +7,19 @@
     <title>Reloj Digital</title>
     <link href="css/estilos.css" rel="stylesheet"/>
 </head>
-<body onload="mostrarReloj()">
+<body onload="mostrarReloj(), mostrarRelojUTC()">
     <div id="reloj">
         <div class="reloj-contenedor" id="contenedor">
+            <div class="texto">Horario Local</div>
             <div id="hora">Reloj digital</div>
             <div id="fecha">con JavaScript</div>
+        </div>
+    </div>
+    <div id="reloj">
+        <div class="reloj-contenedor" id="contenedor2">
+            <div class="texto">Horario UTC</div>
+            <div id="hora2">Reloj digital</div>
+            <div id="fecha2">con JavaScript</div>
         </div>
     </div>
     <script src="js/reloj.js"></script>

@@ -5,7 +5,7 @@
     margin-top: 25px;
     border-radius: 25px;
     color: rgb(0, 0, 0);
-    background: url(fondo.png), linear-gradient(to left, #54c7a1, #cf9397);
+    background: url(fondo.png), linear-gradient(to left, #4e9980, #a36e72);
 }
 
 .resultados{
@@ -23,4 +23,7 @@
     -webkit-text-stroke: 1px rgb(148, 150, 120);
     color: rgb(255, 255, 255); 
     font-size: 20px;
+}
+body{
+    background: url(fondo.png), linear-gradient(to left, #504040, #673fc4);
 }
