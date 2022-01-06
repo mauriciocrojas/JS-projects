@@ -4,27 +4,42 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(#7209b7, #3f37c0);
+  background: url(estrellas2.png), linear-gradient(to right, #352f2f, #251a41);
+
 }
 .contenedor {
   margin: 50px auto;
   width: 400px;
   padding: 30px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(14, 14, 14, 0.336);
   border-radius: 10px;
+  background:transparent, linear-gradient(to right, #000000, #131313);
+  
 }
 .contenedor h2 {
-  margin: 0 0 30px;
-  padding: 0;
+  margin: 30px 120px 30px 120px;
+  padding: 2px;
+  background: url(fondo.png), linear-gradient(to right, #ff6bad, #b1b1b1);
+  border-radius: 10px;
   font-size: 30px;
-  color: #4cc9f0;
+  color: #200303;
   text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
 }
 .contenedor .elemento label {
-  color: #fff;
+  color: rgb(0, 0, 0);
+  margin: 30px 0px 30px 0px;
+  padding: 2px;
+  background: url(fondo.png), linear-gradient(to right, #ff94c4, #b1b1b1);
+  border-radius: 8px;
+  
+
 }
 .contenedor .elemento input {
   width: 100%;
+  margin-top: 5px;
   padding: 10px 0;
   color: #fff;
   background: transparent;
@@ -33,7 +48,7 @@ body {
   margin-bottom: 30px;
 }
 .contenedor .elemento input[type="submit"] {
-  background-color: #f72585;
+  background: url(fondo.png), linear-gradient(to right, #ff4e9e, #b1b1b1);
   border: none;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -41,3 +56,4 @@ body {
   padding: 15px;
   margin-top: 30px;
 }
+
