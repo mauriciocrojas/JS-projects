@@ -1,9 +1,10 @@
 const mostrarCarga = ()=>{
 
 
+    let forma = document.forms["forma"];
+    let usuario = forma["usuario"];
+    let password = forma["password"];
 
-    let usuario = document.getElementById("usuario");
-    let password = document.getElementById("password")
     if(usuario.value == "" || password.value == ""){
 
         alert("Faltan campos por completar");
