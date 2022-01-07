@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formularios en HTML</title>
+    <title>Login de ingreso</title>
     <link href="CSS/estilos.css" rel="stylesheet">
   </head>
   <body>
@@ -20,9 +20,15 @@
                 <input type="password" id="password" name="password" required="true">
             </div>
             <div class="elemento">
-                <input type="submit" value="Enviar"/>
+              <input type="button" value="Enviar" onclick="mostrarCarga()"/>
+              </div>
+          </form>
+          <div id="container">
+            <p id="textcarga">Iniciando sesión...</p>
+            <div id="carga">
             </div>
-        </form>
+          </div>
     </div>
+    <script src="js/app.js"></script>
   </body>
 </html>
