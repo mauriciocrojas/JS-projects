@@ -10,7 +10,7 @@
   <body>
     <div class="contenedor">
         <h2>Login</h2>
-        <form id="forma" name="forma" method="post">
+        <form id="forma" name="forma" method="get">
             <div class="elemento">
                 <label for="usuario">Usuario:</label>
                 <input type="text" id="usuario" required="true">
@@ -20,7 +20,7 @@
                 <input type="password" id="password" name="password" required="true">
             </div>
             <div class="elemento">
-              <input type="button" value="Enviar" onclick="mostrarCarga()"/>
+              <input type="submit" value="Enviar" onclick="mostrarCarga()"/>
               </div>
           </form>
           <div id="container">

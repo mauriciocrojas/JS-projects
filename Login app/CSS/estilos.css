@@ -47,7 +47,7 @@ body {
   border-bottom: 1px solid #fff;
   margin-bottom: 30px;
 }
-.contenedor .elemento input[type="button"] {
+.contenedor .elemento input[type="submit"] {
   background: url(fondo.png), linear-gradient(to right, #ff4e9e, #b1b1b1);
   border: none;
   letter-spacing: 5px;
