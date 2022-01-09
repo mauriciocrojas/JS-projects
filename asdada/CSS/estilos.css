@@ -1,0 +1,106 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url(estrellas2.png), linear-gradient(to right, #352f2f, #251a41);
+
+}
+.contenedor {
+  margin: 50px auto;
+  width: 400px;
+  padding: 30px;
+  background: rgba(14, 14, 14, 0.336);
+  border-radius: 10px;
+  background:transparent, linear-gradient(to right, #000000, #131313);
+  
+}
+.contenedor h2 {
+  margin: 30px 120px 30px 120px;
+  padding: 2px;
+  background: url(fondo.png), linear-gradient(to right, #ff6bad, #b1b1b1);
+  border-radius: 10px;
+  font-size: 30px;
+  color: #200303;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+}
+.contenedor .elemento label {
+  color: rgb(0, 0, 0);
+  margin: 30px 0px 30px 0px;
+  padding: 2px;
+  background: url(fondo.png), linear-gradient(to right, #ff94c4, #b1b1b1);
+  border-radius: 8px;
+  
+
+}
+.contenedor .elemento input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px 0;
+  color: #fff;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 30px;
+}
+.contenedor .elemento input[type="submit"] {
+  background: url(fondo.png), linear-gradient(to right, #ff4e9e, #b1b1b1);
+  border: none;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+#container{
+  display: none;
+  background-color: rgba(160, 113, 136, 0.74);
+  border-radius: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+#textcarga{
+  margin: 5px 5px 10px 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #b1b1b149;
+  border-radius: 10px;
+  font-family: monospace;
+  font-size: 16px;
+  position: center;
+
+}
+
+#carga{
+  position: center;
+
+  display: none;
+  border: 15px solid #ccc;
+  border-top-color: #F4266A;
+  border-top-style: groove;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: center;
+  margin: auto;
+  
+  animation:  girar duration 2.5s linear infinite;
+  -o-animation: girar 2.5s linear infinite;
+animation: girar 2.5s linear infinite;
+}
+
+@keyframes girar {
+  from { transform: rotate(0deg);}
+  to { transform: rotate(360deg);}
+}
+
